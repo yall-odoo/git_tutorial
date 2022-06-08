@@ -1,4 +1,4 @@
 #Default is world
 #Author: Yann Le Lorier (yall@odoo.com)
-name = AGV.first || "World"
+name = ARGV.first || "World"
 puts "Hello, #{name}!"
